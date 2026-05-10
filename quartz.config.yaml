@@ -154,6 +154,7 @@ plugins:
       priority: 50
     options:
       folderDefaultState: open
+      sortFn: '(a, b) => (a.isFolder === b.isFolder) ? a.slug.localeCompare(b.displayName, undefined, { numeric: true }) : a.isFolder ? -1 : 1'
   - source: github:quartz-community/graph
     enabled: true
     layout:
