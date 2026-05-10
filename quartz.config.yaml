@@ -222,8 +222,8 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        Haxe Website: https://haxe.org/
+        Discord Community: https://discordapp.com/invite/0uEuWH3spjck73Lo
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
